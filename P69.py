@@ -1,0 +1,5 @@
+User_name = input("<>")
+Writing = open("text2.txt","w")
+Writing.write(f"User Name : {User_name}")
+Writing.close()
+print(User_name)

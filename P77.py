@@ -1,0 +1,17 @@
+from random import choice,shuffle,randint,randrange
+choices = ["Parsa","Poyan"]
+random = choice(choices)
+print(random)
+choices_name = randint(1,10)
+print(choices_name)
+first = int(input(" >>"))
+last =  int(input(" >>"))
+steps = int(input(" >>"))
+choices_name_range = randrange(first,last,steps)
+print(choices_name_range)
+names = ["parsa","poyan"]
+shuffle(names)
+print(names[0],end=",")
+print(names[1])
+name = (choice(["parsa","poyan"]))
+print(name)
